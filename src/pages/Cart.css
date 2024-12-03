@@ -51,3 +51,34 @@
   .checkout-button:hover {
     background-color: #e64a19;
   }  
+
+  /* Fade animations */
+.cart-content {
+  opacity: 1;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.cart-fade-out {
+  opacity: 0;
+  pointer-events: none;
+}
+
+.cart-fade-in {
+  opacity: 1;
+}
+
+.thanks-message {
+  margin-top: 20px;
+  padding: 15px;
+  background-color: #d4edda;
+  color: #155724;
+  font-size: 2.5rem;
+  border: 1px solid #c3e6cb;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.thanks-fade-in {
+  opacity: 1;
+  transform: scale(1);
+}
