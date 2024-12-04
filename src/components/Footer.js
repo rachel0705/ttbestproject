@@ -1,5 +1,6 @@
 import React from 'react';
 import './Footer.css';
+import { HashLink } from 'react-router-hash-link'; // Import HashLink
 
 function Footer() {
   return (
@@ -12,16 +13,20 @@ function Footer() {
         <div className="footer-links">
           <h4>Quick Links</h4>
           <ul>
-            <li><a href="#categories">Categories</a></li>
-            <li><a href="#featured-products">Products</a></li>
+            <li>
+              <HashLink to="/#categories">Categories</HashLink>
+            </li>
+            <li>
+              <HashLink to="/#featured-products">Products</HashLink>
+            </li>
           </ul>
         </div>
         <div className="footer-socials">
           <h4>Follow Us</h4>
           <ul>
-            <li><a href="https://facebook.com">Facebook</a></li>
-            <li><a href="https://instagram.com">Instagram</a></li>
-            <li><a href="https://twitter.com">Twitter</a></li>
+            <li><a href="https://facebook.com" target="_blank" rel="noopener noreferrer">Facebook</a></li>
+            <li><a href="https://instagram.com" target="_blank" rel="noopener noreferrer">Instagram</a></li>
+            <li><a href="https://twitter.com" target="_blank" rel="noopener noreferrer">Twitter</a></li>
           </ul>
         </div>
       </div>

@@ -11,11 +11,10 @@ function StoreInfo() {
           className="store-info-image"
         />
         <div className="store-info-text">
-          <h2>About Our Store</h2>
+          <h2>A little about us...</h2>
           <p>
             At TableTennisStore, we provide top-quality products and accessories
-            for players of all levels. Whether you're a beginner or a
-            professional, we've got everything you need to excel in your game.
+            for players of all levels. 
           </p>
           <p>Join our community and enjoy fast shipping worldwide!</p>
         </div>
